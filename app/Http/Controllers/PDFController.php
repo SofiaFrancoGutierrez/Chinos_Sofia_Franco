@@ -21,7 +21,7 @@ class PDFController extends Controller
         $pdf->setFont('Arial','B',13);
         //Establecer contenido a mostrar 
         $pdf->SetFillColor(0,0,0);
-        $pdf->SetTextColor(220,0,255 );
+        $pdf->SetTextColor(220, 0, 255 );
         $pdf->SetDrawColor(0,0,0);
         $pdf->Cell(100,15,utf8_decode("NOMBRE ARTISTA"),1,0,"C",true);   
         $pdf->Cell(70,15,utf8_decode("NÚMERO DE ALBUNES"),1,1,"C",true);  
